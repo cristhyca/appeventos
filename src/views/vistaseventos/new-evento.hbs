@@ -1,0 +1,26 @@
+<div class="col-md-4 mx-auto">
+    <div class="card text-center">
+        <div class="card-header">
+            <h3>Nuevo Evento</h3>
+        </div>
+        <div class="card-body">
+            <form action="/eventos/nuevoevento" method="POST">
+                <div class="form-group">
+                    <input type="text" name="title" required class="form-control" placeholder="Titulo" autofocus>
+
+                </div>
+                <div class="form-group">
+                    <input type="text" name="fecha" required class="form-control" placeholder="Especifica la fecha" >
+
+                </div>
+                <div class="form-group">
+                    <textarea name="descripcion" required placeholder="Describe tu evento" class="form-control" ></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">Guardar</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
