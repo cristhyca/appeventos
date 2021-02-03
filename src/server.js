@@ -13,7 +13,7 @@ require('./config/passport');
 //settings
 //const host= process.env.HOST || '0.0.0.0';
 //const port = process.env.PORT || 3000;
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 3000);
 //app.set('host', process.env.HOST || '0.0.0.0');
 //acceder a la carpeta vistas para que sea multiplataforma
 app.set('views', path.join(__dirname, 'views'));
